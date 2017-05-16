@@ -1,0 +1,17 @@
+<p>
+  Currency Formats:
+</p>
+<p>
+	 {{value | currency}}
+</p>
+<p>
+	 {{value | currency:"EUR"}}
+</p>
+<p>
+	<!-- this doesn't seem to do anything -->
+	 {{value | currency:"AUS":true }}
+</p>
+<p>
+	<!-- and this just throws an error  -->
+	 {{value | currency:"CNY":true:"1.1-2" }}
+</p>
